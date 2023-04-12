@@ -1,3 +1,6 @@
 name: WsTool
 version: '${project.version}'
 main: cn.whitesoul.wstool.WsTool
+load: STARTUP
+depend:
+  - WsLib

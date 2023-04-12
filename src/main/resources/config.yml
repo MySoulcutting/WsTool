@@ -1,0 +1,43 @@
+#禁止破坏 / 放置 的世界
+#可以防止与盔甲架交互!
+#可以防止与展示框交互！
+#可以防止与末影水晶交互！
+AntiBuild:
+  Message: "&c你不能在这里破坏!"
+  Worlds:
+    - "world"
+    - "world_nether"
+    - "world_the_end"
+#禁止丢弃的世界
+AntiDrop:
+  Message: "&c你不能在这里丢弃物品!,请输入/drop后在丢弃！"
+  Worlds:
+        - "world"
+        - "world_nether"
+        - "world_the_end"
+  #是否开启指令丢弃物品
+  Commands: true
+  #自动关闭丢弃物品的时间(秒)
+  delay: 60
+  NoMessage: "&c已经帮你自动关闭丢弃！"
+  #是否开启指令丢弃物品
+#禁止改变天气的世界   sun (晴天) rain (下雨) thunder (雷暴)
+#改完之后需要重启生效！
+AntiWeather:
+  Worlds:
+    - "world#sun"
+    - "world_nether#sun"
+    - "world_the_end#sun"
+#禁止改变时间的世界     day (早上) afternoon (中午) night (晚上)
+AntiWorldTime:
+  Worlds:
+    - "world#night"
+    - "world_nether#day"
+    - "world_the_end#day"
+#禁止进入的世界
+AntiWorlds:
+  Message: "&c你不能进入这个世界!"
+  Worlds:
+    - "world"
+    - "world_nether"
+    - "world_the_end"
