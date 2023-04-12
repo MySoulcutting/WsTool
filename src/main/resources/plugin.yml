@@ -1,0 +1,3 @@
+name: WsTool
+version: '${project.version}'
+main: cn.whitesoul.wstool.WsTool
