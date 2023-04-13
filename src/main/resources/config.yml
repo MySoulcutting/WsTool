@@ -18,7 +18,8 @@ AntiDrop:
   #是否开启指令丢弃物品
   Commands: true
   #自动关闭丢弃物品的时间(秒)
-  delay: 60
+  Delay: 60
+  YesMessage: "&a你开启了丢弃功能！,再次输入/drop关闭丢弃！"
   NoMessage: "&c已经帮你自动关闭丢弃！"
   #是否开启指令丢弃物品
 #禁止改变天气的世界   sun (晴天) rain (下雨) thunder (雷暴)
@@ -34,10 +35,20 @@ AntiWorldTime:
     - "world#night"
     - "world_nether#day"
     - "world_the_end#day"
-#禁止进入的世界
-AntiWorlds:
+#禁止进入的世界    进入需要权限: antiworlds.bypass.[世界名字]  例如: antiworlds.bypass.world
+AntiJoinWorld:
   Message: "&c你不能进入这个世界!"
   Worlds:
-    - "world"
+    - "test"
     - "world_nether"
     - "world_the_end"
+#禁止攻击粒子效果  重启生效!
+AntiAttackEffect:
+  Enable: true
+#禁止右键龙蛋  需要前置 ProtocolLib
+AntiEnderEgg:
+  Enable: true
+  Message: "&c你不能右键龙蛋!"
+#查看展示框内物品  蹲下右键展示框
+ViewFrame:
+  Enable: true

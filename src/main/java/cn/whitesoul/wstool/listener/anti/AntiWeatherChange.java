@@ -1,4 +1,4 @@
-package cn.whitesoul.wstool.listener;
+package cn.whitesoul.wstool.listener.anti;
 
 import cn.whitesoul.wslib.message.Message;
 import cn.whitesoul.wstool.config.Config;

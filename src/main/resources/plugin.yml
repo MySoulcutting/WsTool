@@ -4,3 +4,8 @@ main: cn.whitesoul.wstool.WsTool
 load: STARTUP
 depend:
   - WsLib
+softdepend:
+  - ProtocolLib
+commands:
+  drop:
+    description: "丢弃物品"

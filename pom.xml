@@ -6,7 +6,7 @@
 
     <groupId>cn.whitesoul</groupId>
     <artifactId>WsTool</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>v1.0.0</version>
     <packaging>jar</packaging>
 
     <name>WsTool</name>
